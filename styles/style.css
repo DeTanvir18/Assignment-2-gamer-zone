@@ -178,7 +178,31 @@ nav ul li .fa-youtube {
 /***************************************************
     game-icons styles
 ***************************************************/
+.game-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 120px auto;
+}
 
+.game-icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    background: #FFF;
+}
+
+.game-icon:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
+    border-radius: 50px;
+}
 
 
 /***************************************************
@@ -247,6 +271,7 @@ nav ul li .fa-youtube {
         flex-direction: column;
         padding-left: 0;
     }
+
     nav ul li {
         margin: 26px 0;
     }
