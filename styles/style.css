@@ -196,9 +196,19 @@ nav a {
 
 
 /***************************************************
-    play instantly styles
+    play games styles
 ***************************************************/
-
+.play-games-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+.small-img{
+    position: relative;
+    bottom: 240px;
+    left: 510px;
+}
 
 
 /***************************************************
