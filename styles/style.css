@@ -131,7 +131,7 @@ nav ul li .fa-youtube {
 .banner-info h3 {
     margin-top: 0;
     margin-bottom: 0;
-padding-top: 100px;
+    padding-top: 130px;
 }
 
 .banner-info ul {
@@ -148,7 +148,7 @@ padding-top: 100px;
 
 .banner-btn-container {
     margin-top: 41px;
-    padding-bottom: 75px;
+    padding-bottom: 90px;
 }
 
 .banner-btn-container .bg-sky {
@@ -197,14 +197,19 @@ padding-top: 100px;
     .heading-one {
         font-size: 65px;
     }
-    .heading-two, .heading-three{
+
+    .heading-two,
+    .heading-three {
         font-size: 2rem;
     }
-    .btn-primary{
+
+    .btn-primary {
         padding: 10px 20px;
     }
+
     nav,
-    nav ul, .banner {
+    nav ul,
+    .banner {
         flex-direction: column;
         padding-left: 0;
     }
@@ -212,7 +217,9 @@ padding-top: 100px;
     nav ul li {
         margin: 26px 0;
     }
-    .banner-info, .banner img{
+
+    .banner-info,
+    .banner img {
         padding: 10px;
     }
 }
@@ -220,4 +227,33 @@ padding-top: 100px;
 /*********************************
     for tablet or medium devices
 *********************************/
-@media screen and (min-width: 577px) and (max-width: 992px) {}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .heading-one {
+        font-size: 65px;
+    }
+
+    .heading-two,
+    .heading-three {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+    }
+
+    nav,
+    nav ul,
+    .banner {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    nav ul li {
+        margin: 26px 0;
+    }
+
+    .banner-info,
+    .banner img {
+        padding: 50px;
+    }
+
+}
