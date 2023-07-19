@@ -21,6 +21,7 @@ nav {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+    border: 0;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 21px 40px;
@@ -30,8 +31,12 @@ nav {
     color: #F948B2;
 }
 
+.text-secondary {
+    color: #a903bc;
+}
+
 .heading-one {
-    font-size: 6rem;
+    font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -95,7 +100,8 @@ nav a {
     text-decoration: none;
     color: #3C354F;
 }
-nav ul li .fa-youtube{
+
+nav ul li .fa-youtube {
     color: #F61C0D;
     margin-left: 24px;
     margin-right: 16px;
@@ -104,7 +110,54 @@ nav ul li .fa-youtube{
 /****************************
     banner styles
 ****************************/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.bg-img {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-info {
+    padding-left: 225px;
+    padding-right: 384px;
+}
+
+.banner-info h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+padding-top: 100px;
+}
+
+.banner-info ul {
+    padding: 8px;
+}
+
+.banner-info li {
+    list-style: none;
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 17px 0;
+}
+
+.banner-btn-container {
+    margin-top: 41px;
+    padding-bottom: 75px;
+}
+
+.banner-btn-container .bg-sky {
+    background: #4EC5F7;
+}
+
+.banner img {
+    width: 100%;
+    padding-right: 240px;
+}
 
 
 
@@ -140,11 +193,14 @@ nav ul li .fa-youtube{
     for mobile devices
 *********************************/
 @media screen and (max-width: 576px) {
-    nav, nav ul{
+
+    nav,
+    nav ul {
         flex-direction: column;
         padding-left: 0;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 26px 0;
     }
 }
