@@ -166,7 +166,33 @@ nav a {
 /***************************************************
     online games styles
 ***************************************************/
+.online-games {
+    text-align: center;
+}
 
+.online-games h2 {
+    margin: 120px auto 16px;
+}
+
+.online-games>p {
+    color: #534C64;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.online-games-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.game {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+}
 
 
 /***************************************************
@@ -289,7 +315,8 @@ footer button {
 
     nav,
     nav ul,
-    .banner {
+    .banner,
+    .online-games-container {
         flex-direction: column;
         padding-left: 0;
     }
@@ -301,6 +328,10 @@ footer button {
     .banner-info,
     .banner img {
         padding: 10px;
+    }
+
+    .online-games-container img {
+        width: 100%;
     }
 
 
@@ -371,7 +402,8 @@ footer button {
 
 
     .game-icons-container,
-    .terms-and-condition {
+    .terms-and-condition,
+    .online-games-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
