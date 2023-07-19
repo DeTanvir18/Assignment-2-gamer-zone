@@ -194,6 +194,48 @@ nav a {
     color: #534C64;
 }
 
+.game-image-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.game-image-container img{
+    display: block;
+}
+
+.game-image-container .overlay{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    border: 3px solid #F948B2;
+    border-radius: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    opacity: 0;
+}
+
+.overlay .fa-circle-play{
+    font-size: 48px;
+}
+
+.overlay p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F948B2;
+}
+
+.game-image-container:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
 
 /***************************************************
     play games styles
@@ -331,9 +373,8 @@ footer button {
     nav,
     nav ul,
     .banner,
-    .online-games-container,
-    .play-games-container {
-        flex-direction: column-reverse;
+    .online-games-container {
+        flex-direction: column;
         padding-left: 0;
     }
 
@@ -350,6 +391,9 @@ footer button {
         width: 100%;
     }
 
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
     .play-games-container img {
         width: 100%;
     }
