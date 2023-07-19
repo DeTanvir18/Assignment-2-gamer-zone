@@ -1,0 +1,155 @@
+/***************************************************
+    google fonts
+***************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/***************************************************
+    shared styles
+***************************************************/
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main,
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+}
+
+.text-primary {
+    color: #F948B2;
+}
+
+.heading-one {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heading-two {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.heading-three {
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+/***************************************************
+    header styles
+***************************************************/
+/****************************
+    navbar styles
+****************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-left img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+nav ul .youtube-tiktok {
+    border-radius: 8px;
+    background: rgba(66, 19, 194, 0.1);
+    padding: 16px 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+}
+nav ul li .fa-youtube{
+    color: #F61C0D;
+    margin-left: 24px;
+    margin-right: 16px;
+}
+
+/****************************
+    banner styles
+****************************/
+
+
+
+
+
+/***************************************************
+    online games styles
+***************************************************/
+
+
+
+/***************************************************
+    play instantly styles
+***************************************************/
+
+
+
+/***************************************************
+    game-icons styles
+***************************************************/
+
+
+
+/***************************************************
+    footer styles
+***************************************************/
+
+
+
+/******************************************************************
+    media queries for responsivness
+******************************************************************/
+/*********************************
+    for mobile devices
+*********************************/
+@media screen and (max-width: 576px) {
+    nav, nav ul{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    nav ul li{
+        margin: 26px 0;
+    }
+}
+
+/*********************************
+    for tablet or medium devices
+*********************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {}
