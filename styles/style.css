@@ -198,7 +198,7 @@ nav ul li .fa-youtube {
     background: #FFF;
 }
 
-.game-icon:hover{
+.game-icon:hover {
     color: #F948B2;
     border: 2px solid #F948B2;
     border-radius: 50px;
@@ -246,6 +246,28 @@ nav ul li .fa-youtube {
     .banner img {
         padding: 10px;
     }
+
+
+
+
+    .game-icons-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 5px;
+        padding: 10px;        
+    }
+
+    .game-icon {
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        padding: 3px;
+    }
+
+    .game-icon img{
+        width: 22px;
+    }
 }
 
 /*********************************
@@ -279,6 +301,16 @@ nav ul li .fa-youtube {
     .banner-info,
     .banner img {
         padding: 50px;
+    }
+
+
+
+    .game-icons-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 10px;
+        padding-left: 50px; 
     }
 
 }
