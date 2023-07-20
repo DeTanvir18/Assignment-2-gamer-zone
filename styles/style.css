@@ -357,6 +357,9 @@ footer button {
     for mobile devices
 *********************************/
 @media screen and (max-width: 576px) {
+    body{
+        margin: 2px;
+    }
     .heading-one {
         font-size: 65px;
     }
@@ -382,9 +385,11 @@ footer button {
         margin: 26px 0;
     }
 
-    .banner-info,
+    .banner-info{
+        padding: 5px;
+    }
     .banner img {
-        padding: 10px;
+        padding: 0;
     }
 
     .online-games-container img {
@@ -465,15 +470,22 @@ footer button {
         margin: 26px 0;
     }
 
-    .banner-info,
-    .banner img {
-        padding: 50px;
+    .banner-info{
+        padding-right: 220px;
+    }
+
+    .banner img{
+        padding: 0;
     }
 
     .play-games-container .play-games-info{
         margin: auto 100px;
     }
 
+    .play-games-container .small-img {
+        bottom: 200px;
+        left: 415px;
+    }
 
 
     .game-icons-container,
@@ -483,7 +495,7 @@ footer button {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         gap: 10px;
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     footer ul,
