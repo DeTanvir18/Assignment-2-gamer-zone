@@ -357,9 +357,7 @@ footer button {
     for mobile devices
 *********************************/
 @media screen and (max-width: 576px) {
-    body{
-        margin: 2px;
-    }
+
     .heading-one {
         font-size: 65px;
     }
@@ -385,11 +383,9 @@ footer button {
         margin: 26px 0;
     }
 
-    .banner-info{
-        padding: 5px;
-    }
+    .banner-info,
     .banner img {
-        padding: 0;
+        padding: 10px;
     }
 
     .online-games-container img {
